@@ -23,8 +23,40 @@ public class Main {
 
         short myMinShortValue = Short.MIN_VALUE;
         short myMaxShortValue = Short.MAX_VALUE;
-        System.out.println("Byte Minimum Value = " + myMinByteValue);
-        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+        System.out.println("Byte Minimum Value = " + myMinShortValue);
+        System.out.println("Byte Maximum Value = " + myMaxShortValue);
+
+        long myLongValue = 100L;
+
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Minimum Value = " + myMinLongValue);
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
+        long bigLongLiteralValue = 2_147_483_647L;
+        System.out.println(bigLongLiteralValue);
+
+        short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue/2);
+
+        byte myNewByteValue = (byte) (myMinIntValue / 2);
+//        casting (convert a number from one type to another)
+
+        short myNewshortValue = (short) (myMinShortValue/2);
+
+//        Challenge
+
+        byte byteValue = 10;
+        short shortvalue = 20;
+        int intValue = 50;
+
+        long longTotal = 5000L + 10L * (byteValue + shortvalue + intValue);
+        System.out.println("challenge longTotal: " +  longTotal);
+
+    short shortTotal = (short) (1000 + 10 * (byteValue + shortvalue + intValue));
+        System.out.println("shortTotal: " + shortTotal);
+
+
 
 
 
