@@ -27,39 +27,33 @@ public class GameOver {
 
     displayHighScorePosition("Tim",highScorePosition);
 
-    highScorePosition =
-
-    calculateHighScorePosition(900);
+    highScorePosition = calculateHighScorePosition(900);
 
     displayHighScorePosition("Bob",highScorePosition);
 
-    highScorePosition =
-
-    calculateHighScorePosition(400);
+    highScorePosition = calculateHighScorePosition(400);
 
     displayHighScorePosition("Percy",highScorePosition);
 
-    highScorePosition =
 
-    calculateHighScorePosition(50);
+    highScorePosition = calculateHighScorePosition(50);
 
     displayHighScorePosition("Gilbert",highScorePosition);
 
-    calculateHighScorePosition(500);
-
-    displayHighScorePosition("Louise",highScorePosition);
+//
+//    calculateHighScorePosition(500);
+//
+//    displayHighScorePosition("Louise",highScorePosition);
 
     calculateHighScorePosition(1000);
 
-    displayHighScorePosition("Frank",highScorePosition);
+    displayHighScorePosition("Louise",highScorePosition);
 
     calculateHighScorePosition(100);
 
     displayHighScorePosition("Carole",highScorePosition);
 
     }
-
-
 
 
     public static void displayHighScorePosition(String playerName, int highScorePosition){
@@ -72,10 +66,10 @@ public class GameOver {
         if(playerScore >= 1000){
             return 1;
         }
-        else if (playerScore >=500 && playerScore <= 999){
+        else if (playerScore >=500 && playerScore < 1000){
             return 2;
         }
-        else if (playerScore >=100 && playerScore <= 499){
+        else if (playerScore >=100 && playerScore < 500){
             return 3;
         }
         else {
