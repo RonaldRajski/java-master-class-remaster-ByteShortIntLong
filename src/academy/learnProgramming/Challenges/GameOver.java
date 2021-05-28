@@ -17,6 +17,8 @@ public class GameOver {
         levelCompleted = 8;
         bonus = 200;
 
+//        Section 49
+
         highScore = calculateScore(true, 1000, 8, 200);
         System.out.println("Your final score was " + highScore);
 
