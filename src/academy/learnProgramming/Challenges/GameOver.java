@@ -68,6 +68,7 @@ public class GameOver {
     }
 
     public static int calculateHighScorePosition(int playerScore){
+
         if(playerScore >= 1000){
             return 1;
         }
@@ -81,6 +82,8 @@ public class GameOver {
             return 4;
         }
     }
+
+//    715 section 49
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
