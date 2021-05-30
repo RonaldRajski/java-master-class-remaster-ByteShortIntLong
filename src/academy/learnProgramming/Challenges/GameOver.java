@@ -23,35 +23,28 @@ public class GameOver {
         System.out.println("Your final score was " + highScore);
 
 
-    int highScorePosition = calculateHighScorePosition(1500);
-
-    displayHighScorePosition("Tim",highScorePosition);
-
-    highScorePosition = calculateHighScorePosition(900);
-
-    displayHighScorePosition("Bob",highScorePosition);
-
-    highScorePosition = calculateHighScorePosition(400);
-
-    displayHighScorePosition("Percy",highScorePosition);
 
 
-    highScorePosition = calculateHighScorePosition(50);
+        int highScorePosition = calculateHighScorePosition(1500);
+        displayHighScorePosition("Tim", highScorePosition);
 
-    displayHighScorePosition("Gilbert",highScorePosition);
+        highScorePosition = calculateHighScorePosition(900);
+        displayHighScorePosition("Bob", highScorePosition);
 
-//
-//    calculateHighScorePosition(500);
-//
-//    displayHighScorePosition("Louise",highScorePosition);
+        highScorePosition = calculateHighScorePosition(400);
+        displayHighScorePosition("Percy", highScorePosition);
 
-    calculateHighScorePosition(1000);
+        highScorePosition = calculateHighScorePosition(50);
+        displayHighScorePosition("Gilbert", highScorePosition);
 
-    displayHighScorePosition("Louise",highScorePosition);
+        highScorePosition = calculateHighScorePosition(1000);
+        displayHighScorePosition("Louise", highScorePosition);
 
-    calculateHighScorePosition(100);
+        highScorePosition = calculateHighScorePosition(500);
+        displayHighScorePosition("Carol", highScorePosition);
 
-    displayHighScorePosition("Carole",highScorePosition);
+        highScorePosition = calculateHighScorePosition(100);
+        displayHighScorePosition("Frank", highScorePosition);
 
     }
 
