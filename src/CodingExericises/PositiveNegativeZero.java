@@ -1,4 +1,4 @@
-package Challenges;
+package CodingExericises;
 
 public class PositiveNegativeZero {
 
