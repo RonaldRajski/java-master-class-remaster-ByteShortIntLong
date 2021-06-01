@@ -10,12 +10,11 @@ public class SpeedCoverter {
 
     public static void printConversion(double kilometersPerHour){
         if(kilometersPerHour < 0){
-            System.out.printf("Invalid Value");
+            System.out.println("Invalid Value");
         }
         else {
             long milesPerHour = toMilesPerHour(kilometersPerHour);
-            System.out.printf(kilometersPerHour + " km/h = " + milesPerHour + " mi/h");
+            System.out.println(kilometersPerHour + " km/h = " + milesPerHour + " mi/h");
         }
     }
 }
-vz
