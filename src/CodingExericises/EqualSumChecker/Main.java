@@ -1,4 +1,6 @@
-package CodingExericises.HasEqualSum;
+package CodingExericises.EqualSumChecker;
+
+import CodingExericises.EqualSumChecker.EqualSumChecker;
 
 public class Main {
     public static void main(String[] args) {

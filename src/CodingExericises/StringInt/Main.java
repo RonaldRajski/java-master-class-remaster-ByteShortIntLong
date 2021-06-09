@@ -1,4 +1,4 @@
-package academy.learnProgramming;
+package CodingExericises.StringInt;
 
 public class Main {
 

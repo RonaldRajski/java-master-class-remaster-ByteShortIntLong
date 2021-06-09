@@ -1,4 +1,4 @@
-package academy.learnProgramming.CodingExercises.BarkingDog;
+package CodingExericises.BarkingDog;
 
 public class BarkingDog {
     public static boolean shouldWakeUp(boolean barking, int hourOfDay) {

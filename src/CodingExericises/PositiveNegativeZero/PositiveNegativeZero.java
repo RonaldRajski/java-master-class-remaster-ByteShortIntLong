@@ -1,4 +1,4 @@
-package CodingExericises;
+package CodingExericises.PositiveNegativeZero;
 
 public class PositiveNegativeZero {
 

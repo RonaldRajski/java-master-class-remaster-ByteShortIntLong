@@ -1,4 +1,4 @@
-package academy.learnProgramming.CodingExercises.BarkingDog.HasTeenChecker;
+package CodingExericises.HasTeenChecker;
 
 public class TeenNumberChecker {
     public static boolean hasTeen(int i, int i1, int i2) {
