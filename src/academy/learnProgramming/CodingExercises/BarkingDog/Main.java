@@ -1,4 +1,4 @@
-package CodingExericises.BarkingDog;
+package academy.learnProgramming.CodingExercises.BarkingDog;
 
 public class Main {
     public static void main(String[] args) {
