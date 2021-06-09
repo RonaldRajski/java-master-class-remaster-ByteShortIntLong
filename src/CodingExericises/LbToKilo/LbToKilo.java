@@ -1,4 +1,4 @@
-package academy.learnProgramming.Challenges;
+package CodingExericises.LbToKilo;
 
 public class LbToKilo {
 
