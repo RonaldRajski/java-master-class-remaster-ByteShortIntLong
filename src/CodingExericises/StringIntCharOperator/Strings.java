@@ -1,4 +1,4 @@
-package CodingExericises.StringInt;
+package CodingExericises.StringIntCharOperator;
 
 public class Strings {
     public static void main(String[] args) {
