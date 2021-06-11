@@ -2,6 +2,8 @@ package CodingExericises.MethodOverload.SecondsAndMinutes;
 
 public class Main {
 
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
+
     public static void main(String[] args) {
         System.out.println(getDurationString(65L,45L));
         System.out.println(getDurationString(3945L));
@@ -9,7 +11,7 @@ public class Main {
     }
     private static String getDurationString(long minutes, long seconds){
         if((minutes<0) || (seconds < 0) || (seconds> 59)){
-            System.out.println("Invalid value");
+            return INVALID_VALUE_MESSAGE;
         }
         long hours = minutes/60;
         long remainingMinutes = minutes % 60;
@@ -34,7 +36,7 @@ public class Main {
 
     private static String getDurationString(long seconds) {
         if (seconds < 0) {
-            System.out.println("Invalid value");
+            return INVALID_VALUE_MESSAGEz;
         }
 
         long minutes = seconds / 60;
