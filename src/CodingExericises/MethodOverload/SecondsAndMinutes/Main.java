@@ -36,7 +36,7 @@ public class Main {
 
     private static String getDurationString(long seconds) {
         if (seconds < 0) {
-            return INVALID_VALUE_MESSAGEz;
+            return INVALID_VALUE_MESSAGE;
         }
 
         long minutes = seconds / 60;
