@@ -6,14 +6,14 @@ public class Main {
         System.out.println(area(3.24d,-1.43d));
     }
 
-        private static double area ( double v){
+        public static double area ( double v){
             if (v < 0) {
                 return -1.0;
             } else {
-                return 3.14 * v * v;
+                return Math.PI * v * v;
             }
         }
-        private static double area ( double v, double v1){
+        public static double area ( double v, double v1){
             if (v < 0 || v1 < 0)
                 return -1.0;
             else
