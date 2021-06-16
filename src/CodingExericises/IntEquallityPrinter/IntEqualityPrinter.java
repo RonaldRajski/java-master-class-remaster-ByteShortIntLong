@@ -11,7 +11,7 @@ public class IntEqualityPrinter {
             System.out.println("All numbers are different");
         }
         else {
-            System.out.println("Neither all are eqaula or different");
+            System.out.println("Neither all are equal or different");
         }
     }
 }
