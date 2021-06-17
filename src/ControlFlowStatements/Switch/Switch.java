@@ -2,6 +2,8 @@ package ControlFlowStatements.Switch;
 
 import com.sun.jdi.Value;
 
+import java.util.Locale;
+
 public class Switch {
     public static void main(String[] args) {
 //        int value = 1;
@@ -52,6 +54,33 @@ public class Switch {
 
             default:
                 System.out.println("Like the Playoff chances of the 2021 Chicago BlackHawks, An F is a failing grade");
+                break;
+        }
+
+        String dayOfTheWeek = "Sunday";
+        switch (dayOfTheWeek.toLowerCase()){
+            case "Monday":
+                System.out.println("Monday, Monday Oh what a day");
+                break;
+
+            case "Tuesday":
+                System.out.println("Monday's Younger brother");
+                break;
+
+            case "Wednesday":
+                System.out.println("Hump day!");
+                break;
+
+            case "Thursday":
+                System.out.println("One day until Friday");
+                break;
+
+            case "Friday":
+                System.out.println("I'm not even supposed to be here today");
+                break;
+
+                default:
+                System.out.println("Welcome to the weekend!");
                 break;
         }
 
