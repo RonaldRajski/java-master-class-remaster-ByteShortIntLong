@@ -23,7 +23,9 @@ public class Main {
         }
 
         int count = 0;
-        for (int i = 10; 1 < 50; i++) {
+        for
+        (int i = 10; 1 < 50; i++)
+        {
             if(isPrime(i)) {
                 count ++;
                 System.out.println("Number " + i + " is a prime number");
@@ -36,9 +38,6 @@ public class Main {
         }
     }
 }
-
-
-
 
 //    Challenge
 
