@@ -24,7 +24,7 @@ public class Main {
 
         int count = 0;
         for
-        (int i = 10; 1 < 50; i++)
+        (int i = 10; i < 50; i++)
         {
             if(isPrime(i)) {
                 count ++;
@@ -36,6 +36,21 @@ public class Main {
 
 
         }
+
+            int count2 = 0;
+            for
+            (int j = 10; j < 50; j++) {
+                if (isPrime2(j)) {
+                    count2++;
+                    System.out.println("Number " + j + " is a prime number");
+                    if (count2 == 10) {
+                        System.out.println("Looping");
+                        break;
+                    }
+
+
+                }
+            }
     }
 }
 
@@ -55,9 +70,20 @@ public class Main {
         return true;
     }
 
+    public static boolean isPrime2(int m) {
 
+        if (m == 1) {
+            return false;
+        }
 
-
+        for (int j = 2; j<= (long) Math.sqrt(m); j++) {
+            System.out.println("Looping " + j);
+            if (m % j == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
     public static double calculateInterest(double amount, double interestRate){
 
